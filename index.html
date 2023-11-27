@@ -1,0 +1,259 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>LinkedIn</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="header__left">
+        <div id="clr-blu ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"  class="mercado-match" width="24" height="24" focusable="false">
+          <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+        </svg></div>
+        <div class="header__search">
+          <i class="material-icons"> search </i>
+          <input type="text" />
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> home </i>
+          <h3>Home</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> supervisor_account </i>
+          <h3>My Network</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> business_center </i>
+          <h3>Jobs</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> chat </i>
+          <h3>Messaging</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> notifications </i>
+          <h3>Notifications</h3>
+        </div>
+        <div class="headerOption">
+          <i class="material-icons headerOption__icon"> account_circle </i>
+          <h3>Me</h3><select class="dr" >
+            <option></option>
+            <option>Akshay</option>
+            <option>setting</option>
+            <option><button class="viewprofile">view profile</button></option>
+            <option>logout</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="body__main">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="sidebar__top">
+          <img src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080" alt="" />
+          <i class="material-icons sidebar__topAvatar"> account_circle </i>
+          <h2>Akshay Thakur</h2>
+          <h4>AkshayThakur@gmail.com</h4>
+        </div>
+
+        <div class="sidebar__stats">
+          <div class="sidebar__stat">
+            <p>Who Viewed You</p>
+            <p class="sidebar__statNumber">2,453</p>
+          </div>
+          <div class="sidebar__stat">
+            <p>Views on post</p>
+            <p class="sidebar__statNumber">2,650</p>
+          </div>
+        </div>
+
+        <div class="sidebar__bottom">
+          <p>Recent</p>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>reactjs</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>programming</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>softwareengineering</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>design</p>
+          </div>
+          <div class="sidebar__recentItem">
+            <span class="sidebar__hash">#</span>
+            <p>developer</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Feed -->
+      <div class="feed">
+        <div class="feed__inputContainer">
+          <div class="feed__input">
+            <i class="material-icons"> create </i>
+            <form>
+              <input type="text" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
+          <div class="feed__inputOptions">
+            <div class="inputOption">
+              <i style="color: #70b5f9" class="material-icons"> insert_photo </i>
+              <h4>Photo</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: #e7a33e" class="material-icons"> subscriptions </i>
+              <h4>Video</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: #c0cbcd" class="material-icons"> event_note </i>
+              <h4>Event</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: #7fc15e" class="material-icons"> calendar_view_day </i>
+              <h4>Write Article</h4>
+            </div>
+          </div>
+        </div>
+
+    
+
+        <!-- Post -->
+        <div class="post">
+          <div class="post__header">
+            <i class="material-icons sidebar__topAvatar"> account_circle </i>
+            <div class="post__info">
+              <h2>virat kohli</h2>
+              <p>1.9M</p>
+            </div>
+          </div>
+
+          <div class="post__body">
+            <img src="images/v1.avif" style="
+            height: 405px;
+            padding-bottom: 10px;
+        ">
+            
+          </div>
+
+          <div class="feed__inputOptions">
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> thumb_up </i>
+              <h4>Like</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> comment </i>
+              <h4>Comment</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> share </i>
+              <h4>Share</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> send </i>
+              <h4>Send</h4>
+            </div>
+          </div>
+        </div>
+        
+
+      
+
+        <!-- Post -->
+        <div class="post">
+          <div class="post__header">
+            <i class="material-icons sidebar__topAvatar"> account_circle </i>
+            <div class="post__info">
+              <h2>Amazon</h2>
+              <p>5.26m - Follower</p>
+              
+            </div>
+          </div>
+
+          <div class="post__body">
+            <iframe height="480" width="549"  
+src="https://www.youtube.com/embed/il_t1WVLNxk"> 
+</iframe> 
+          </div>
+
+          <div class="feed__inputOptions">
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> thumb_up </i>
+              <h4>Like</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> comment </i>
+              <h4>Comment</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> share </i>
+              <h4>Share</h4>
+            </div>
+            <div class="inputOption">
+              <i style="color: gray" class="material-icons"> send </i>
+              <h4>Send</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- widgets -->
+      <div class="widgets">
+        <div class="widgets__header">
+          <h2>LinkedIn Clone</h2>
+          <i class="material-icons"> info </i>
+        </div>
+        <div class="widgets__article">
+          <div class="widgets__articleLeft">
+            <i class="material-icons"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4>indian crosses 3,58,974 daily cases</h4>
+            <p>10h ago - 5500 readers</p>
+          </div>
+        </div>
+
+        <div class="widgets__article">
+          <div class="widgets__articleLeft">
+            <i class="material-icons"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4>Zomato files for $1.12 IPO</h4>
+            <p>3h - 6500 readers</p>
+          </div>
+        </div>
+
+        <div class="widgets__article">
+          <div class="widgets__articleLeft">
+            <i class="material-icons"> fiber_manual_record </i>
+          </div>
+          <div class="widgets__articleRight">
+            <h4>jobs pay in IT soar</h4>
+            <p>2d ago - 7500 readers</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
